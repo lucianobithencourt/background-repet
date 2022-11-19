@@ -1,0 +1,29 @@
+
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* backgroud-size - tamanho da imagem 
+   -background-repet:repet - repetição da imagem
+
+   -background-repet: no-repet - nao repete imagem
+
+   -background-repet: repet-x repete imagem apenas
+    na vertice X da tela 
+
+   -background-repet: repet-y repete imagem apenas na vertice Y da tela 
+
+
+   
+   */
+body {
+    background-image: url(https://gustavoguanabara.github.io/html-css/imagens/mascote.png);
+    background-size: 60px 60px;
+    background-repeat:no-repeat;
+
+    
+    
+}
